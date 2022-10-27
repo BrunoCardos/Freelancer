@@ -1,0 +1,373 @@
+body{
+    font-family: sans-serif;
+    padding: 0; margin: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    margin-top: 8px;
+}
+header > .container{
+   display: flex;
+
+}
+
+.logo{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.left{ 
+    width: 60%;
+}
+
+.left a{
+    position: relative;
+    top: -8px;
+    margin: 0px 10px;
+}
+
+.right{
+    width: 40%;
+    text-align: right;
+}
+
+.right a,
+.right button{
+    position: relative;
+    top: 13px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    background: #f20091;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+nav{
+    background: #0E1724;
+    position: relative;
+    top: 25px;
+    padding: 15px 0;
+}
+
+nav > .container{
+    display: flex;
+}
+
+ nav a{
+     margin: 10px;
+     color: white;
+ }
+
+ .hero{
+     background: url(hero.webp);
+     padding: 250px 0;
+ }
+
+ .hero h1{
+     color: white;
+     font-size: 50px;
+     width: 550px;
+ }
+
+ .hero p{
+     color: white;
+     font-size: 20px;
+     width: 500px;
+     margin-bottom: 30px;
+ }
+
+ .hero .btn-1 {
+     padding: 20px;
+     font-size: 15px;
+     border: 1px solid #f20091;
+     margin-right: 10px;
+ }
+
+ .hero .btn-2 {
+    padding: 20px;
+    font-size: 15px;
+    border: 1px solid white;
+    background: transparent;
+}
+
+.clients .flex{
+    display: flex;
+    gap: 35px;
+    padding-top: 20px;
+}
+
+.clients p{
+    font-size: 22px;
+    color: #4d525b;
+    width: 120px;
+    position: relative;
+    top: -10px;
+}
+
+.clients .nasa{
+    height: 50px;
+}
+
+.clients hr{
+    margin: 0;
+    margin-top:15px;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #0e1724;
+    margin: 80px 0;
+}
+
+ .wrapper{
+    display: flex;
+    justify-content: space-between
+}
+
+.card{
+    width: 500px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.card .card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header .icon{
+    width: 30%;
+}
+
+.card-header .icon img{
+    width: 64px;
+}
+
+.contend{
+    width: 60%;
+    
+}
+
+.contend h3{
+    font-size: 25px;
+    align-items: center;
+}
+
+.contend p{
+    width: 270px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+hr{
+    margin: 80px 0;
+}
+
+.products h2{
+    margin-bottom: 30px;
+}
+
+.products p{
+    font-size: 20px;
+}
+
+.products img{
+    width: 276px;
+    margin: 60px 0 15px 0;
+}
+
+h3{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.products .center{
+    text-align: center;
+}
+
+.products button{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.mini-card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0;
+    width: 173px;
+    
+
+}
+
+.mini-card img{
+    width: 32px;
+}
+
+.mini-card a{
+    margin-left: 20px;
+}
+
+.categories{
+    margin-bottom: 80px;
+}
+
+.news {
+    display: flex;
+    margin: 0;
+}
+
+.news-left{
+    width: 50%;
+    background: url(api-upsell-v3.webp);
+}
+
+.news-left h3{
+    color: white;
+    font-size: 32px;
+    padding: 250px 0 20px 350px;
+}
+
+.news-left h2{
+    color: white;
+    font-size: 45px;
+    padding-left: 350px;
+    width: 550px;
+    margin: 0;
+}
+
+.news-left p{
+    color: white;
+    font-size: 20px;
+    padding-left: 350px;
+    width: 550px;
+    margin: 20px 0;
+}
+
+.news-left button{
+    margin-left: 350px;
+    margin-bottom: 250px;
+    font-size: 17px;
+}
+
+.news-right{
+    width: 50%;
+    background: url(enterprise-upsell-v3.webp);
+}
+
+.news-right h3{
+    color: white;
+    font-size: 32px;
+    padding: 250px 0 20px 50px;
+}
+
+.news-right h2{
+    color: white;
+    font-size: 45px;
+    padding-left: 50px;
+    width: 550px;
+    margin: 0;
+}
+
+.news-right p{
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    width: 550px;
+    margin: 20px 0;
+}
+
+.news-right button{
+    margin-left: 50px;
+    margin-bottom: 250px;
+    font-size: 17px;
+}
+
+footer{
+    padding-top: 20px;
+    background: #0E1724;
+    color: white;
+    padding-bottom: 50px;
+}
+
+footer img{
+    width: 133px;
+}
+
+footer h4{
+    font-size: 15px;
+    margin: 25px;
+}
+
+footer a{
+    position: relative;
+    left: 25px;
+    color: white;
+    font-size: 13px;
+}
+
+footer a img{
+    padding-bottom: 15px;
+}
+
+footer hr{
+    margin: 30;
+}
+
+
+.copyrights p{
+    font-size: 12px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.copyrights h5{
+    margin: 0;
+    font-weight: bolder;
+}
+
+hr{
+    color: #dedede;
+}
+
+
+footer .social i{
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+footer .social i:first-child{
+    margin-left: 25px;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+    
+}
+
+.lang img{
+    width: 24px;
+    height: 24px;
+}
+
+
